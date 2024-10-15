@@ -1,6 +1,7 @@
 .CardComponent {
     width: 100%;
     height: 400px;
+    margin: 10px 0px;
 }
 .Card_img_component{
     width: 100%;

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import './InstagramFeed.css'
 
 // Import Swiper React components
@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 import { Autoplay,Pagination } from 'swiper/modules';
 const InstagramFeed = () => {
     return (
-        <div>
+        <div className='insta-main'>
             <h1 className='MANUCARD'>Instagram Feed</h1>
             <p class="sub-title">Share your store with us</p>
             <div className='slidercardInstagram'>

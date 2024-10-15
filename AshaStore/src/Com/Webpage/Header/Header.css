@@ -47,9 +47,6 @@ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-20bmp1-MuiSvgIcon-root {
 }
 
 @media only screen and (min-width: 280px) and (max-width: 720px) {
-    body {
-      background-color: lightblue;
-    }
     .Sidebhar {
         display: block;
     }

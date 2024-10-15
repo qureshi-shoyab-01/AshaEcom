@@ -67,13 +67,10 @@
 }
 
 @media only screen and (min-width: 280px) and (max-width: 576px) {
-    body {
-      background-color: lightblue;
-    }
+    
     .swiper {
       width:100%;
       height: 190px;
-      background-color: red;
       
     }
     .swiper-slide img {
@@ -99,13 +96,10 @@
   }
   }
   @media only screen and (min-width: 576px) and (max-width: 867px) {
-    body {
-      background-color: lightblue;
-    }
+    
     .swiper {
       width:100%;
       height: 250px;
-      background-color: red;
       
     }
     .swiper-slide img {
@@ -131,13 +125,10 @@
   }
   }
   @media only screen and (min-width: 867px) and (max-width: 992px) {
-    body {
-      background-color: lightblue;
-    }
+    
     .swiper {
       width:100%;
       height: 400px;
-      background-color: red;
       
     }
     .swiper-slide img {

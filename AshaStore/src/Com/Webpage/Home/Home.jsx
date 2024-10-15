@@ -6,6 +6,7 @@ import Secure from '../Secure/Secure';
 import Reviews from '../Reviews/Reviews'
 import InstagramFeed from '../InstagramFeed/InstagramFeed'
 import Footer from '../Footer/Footer'
+import Cookin from '../All Collection/COOKIN/Cookin';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
    <Slider/>
    <FilterComponent />
    <Secure/>
+   <Cookin />
    <Reviews/>
    <InstagramFeed/>
 <Footer/>
