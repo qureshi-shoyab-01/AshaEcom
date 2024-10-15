@@ -1,0 +1,99 @@
+.CardComponent {
+    width: 100%;
+    height: 400px;
+}
+.Card_img_component{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s;
+}
+.Card_img_component img  {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.Card_img_component:hover img {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.Card_img_component img.cardlogo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.Card_img_component button {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    background-color:#f2bb53;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.Card_img_component ul{
+    position: absolute;
+    bottom: -25%;
+    right: 5%;
+    transition: all 0.5s;
+}
+.Card_img_component ul li {
+    background: #f2bb53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    width: 35px;
+    height: 35px;
+}
+.Card_img_component ul li:last-child{
+    border-radius: 0px;
+}
+.Card_img_component svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.Item-icons.css-20bmp1-MuiSvgIcon-root {
+    position: relative;
+    left: 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+.Card_img_component:hover ul {
+    bottom: 0%;
+}
+
+.CardComponent h3 {
+    color: #f2bb53;
+    font-weight: 500;
+    margin: 6px 10px;
+    font-family: Shoyab,sans-serif;
+}
+.CardComponent p {
+    color: gray;
+    font-size: 14px;
+    margin: 5px 10px;
+}
+.CardComponent p span {
+    color: #000;
+    font-size: 18px;
+    margin: 0px 5px 0px 0px;
+    font-weight: 500;
+}
+.CardComponent button.Add-card-button {
+    background-color: #f2bb53;
+    color: #fff;
+    width: 90%;
+    height: 40px;
+    margin: 0px 5%;
+    font-weight: 600;
+    font-family: Shoyab,sans-serif;
+    transition: all 0.5s;
+}
+.CardComponent button.Add-card-button:active {
+  transform: scale(0.95);
+  color: #000;
+}

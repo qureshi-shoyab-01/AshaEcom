@@ -1,0 +1,98 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 80%;
+    height: 500px;
+    max-width: 80%;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+  }
+  .close-button svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.close-button.css-20bmp1-MuiSvgIcon-root {
+    color: #000;
+    position: relative;
+    left: 0;
+}
+.parent-container {
+  position: relative; /* Ensure this is set on the parent */
+}
+.modal-product-details-component p.Dis-content{
+  margin: 10px 0px;
+  padding: 0px 10px 0px 0px;
+  color: gray;
+}
+.modal-product-details-component p span {
+  font-size: 30px;
+  margin: 0px 10px 0px 0px;
+  font-weight: 600;
+}
+.modal-product-details-component p del {
+  color: green;
+}
+.modal-product-details-component h3 {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 27px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.modal-product-details-component  input[type="number"] {
+  background-color: #000;
+  width: 15%;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 1px 1px  4px #000;
+  margin: 5% 2% 0% 2%;
+}
+
+.modal-product-details-component p.Total-context {
+  font-size: 30px;
+    margin: 0px 10px 0px 0px;
+    font-weight: 600;
+  }
+
+.modal-product-details-component button {
+  background-color: #f2bb53;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 1px 1px  4px #000;
+  margin: 30px 0px;
+}
+.modal-product-details-component button:active {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+.modal-product-details-component button.Buy-now {
+  background-color: rgba(255, 0, 0, 0.932);
+  margin-left: 10px;
+}

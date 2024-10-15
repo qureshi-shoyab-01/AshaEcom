@@ -1,0 +1,19 @@
+.Admin-Header {
+    background-color: #f2bb53;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.Admin-Header ul li {
+    float: left;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Shoyab,sans-serif;
+    transition: 0.5s;
+}
+.Admin-Header ul li a:hover {
+    cursor: pointer;
+    color: #fff;
+}

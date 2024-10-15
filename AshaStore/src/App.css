@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Primary;
+    src: url(../public/Font/BonaNovaSC-Regular.ttf);
+}
+@font-face {
+    font-family: Primary-bold;
+    src: url(../public/Font/BonaNovaSC-Bold.ttf);
+}
+@font-face {
+    font-family: Shoyab;
+    src: url(../public/Font/RobotoSlab-VariableFont_wght.ttf);
+}
