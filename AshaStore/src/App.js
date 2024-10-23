@@ -9,6 +9,7 @@ import Adminpenal from './Com/Admin/AdminPenal/Adminpenal';
 import Product from './Com/Admin/Product/Product';
 import AddProduct from './Com/Admin/AddProduct/AddProduct';
 import UpdateProduct from './Com/Admin/UpdateProduct/UpdateProduct';
+import Details from './Com/Webpage/All Collection/DetalisPage/Details';
 function App() {
  const location = useLocation();
  const hideHeader = location.pathname === '/Admin';
@@ -24,6 +25,8 @@ function App() {
       <Route path='/Women' element={<Women/>}/>
       <Route path='/Checkout' element={<Checkout />}/>
       <Route path='/Admin' element={<Adminpenal />}/>
+      <Route path='/Detail' element={<Details />}/>
+      
      </Routes>
      <Routes>
       

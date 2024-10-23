@@ -7,6 +7,9 @@ import Reviews from '../Reviews/Reviews'
 import InstagramFeed from '../InstagramFeed/InstagramFeed'
 import Footer from '../Footer/Footer'
 import Cookin from '../All Collection/COOKIN/Cookin';
+import Dining from '../All Collection/DINING/Dining';
+import Kitchen from '../All Collection/KITCHEN/Kitchen';
+import Pooja from '../All Collection/POOJA/Pooja';
 
 const Home = () => {
 
@@ -18,7 +21,10 @@ const Home = () => {
    <FilterComponent />
    <Secure/>
    <Cookin />
+   <Dining />
    <Reviews/>
+   <Kitchen />
+   <Pooja />
    <InstagramFeed/>
 <Footer/>
    

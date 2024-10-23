@@ -1,5 +1,6 @@
 import React from 'react'
 import './Cookin.css'
+import Card from '../../Card/Card'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -9,7 +10,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Autoplay,Pagination } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 const Cookin = () => {
   return (
@@ -21,9 +22,9 @@ const Cookin = () => {
         <Swiper
             slidesPerView={1}
             spaceBetween={0}
-            pagination={{
-                clickable: true, 
-            }}
+            // pagination={{
+            //     clickable: true, 
+            // }}
             breakpoints={{
                 280: {
                     slidesPerView: 2,
@@ -39,29 +40,30 @@ const Cookin = () => {
                 },
                 768: {
                     slidesPerView: 4,
-                    spaceBetween: 40,
+                    spaceBetween: 10,
                 },
                 1024: {
                     slidesPerView: 5,
-                    spaceBetween: 50,
+                    spaceBetween: 0,
                 },
             }}
-            modules={[Autoplay,Pagination]}
+            modules={[Autoplay]}
             className="mySwiper"
         >
+
             <SwiperSlide>
-                
+            <img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/>
             </SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
-            <SwiperSlide><img className="Instsgarmdatamanu" src="https://www.demo4.arinfotech.co/clazep/public/storage/instagram/4F959AF3E82C.jpg"></img></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
+            <SwiperSlide><img className="Instsgarmdatamanu" src="img/Cooking.jpeg"/></SwiperSlide>
 
 
         </Swiper>

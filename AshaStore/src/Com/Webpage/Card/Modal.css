@@ -65,9 +65,9 @@
 .modal-product-details-component .button-context {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   margin: 10px 0px;
 }
