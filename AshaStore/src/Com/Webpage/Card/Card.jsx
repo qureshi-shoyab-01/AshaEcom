@@ -22,13 +22,15 @@ const Card = () => {
 
   const getProduct = async () => {
     try {
-      let response = await fetch("http://localhost:7000/api/v1/auth/ProductsFacthing");
+      let response = await fetch(
+        "http://localhost:7000/api/v1/auth/ProductsFacthing"
+      );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       let result = await response.json();
-      console.log(result); // Log the response
-  
+      console.log("API Response:", result); // Log the response
+
       if (Array.isArray(result.data)) {
         setAddProducts(result.data);
       } else {
@@ -40,7 +42,6 @@ const Card = () => {
       setAddProducts([]);
     }
   };
-  
 
   const handleOpenModal = (product) => {
     setSelectedProduct(product);
@@ -116,14 +117,18 @@ const Card = () => {
                     <div className="col-lg-9 col-md-9 col-sm-9 col-6">
                       <div className="modal-product-details-component">
                         <h2>{selectedProduct.fullbrandname}</h2>
-                        <p className="Dis-content">{selectedProduct.Brandinformation}</p>
+                        <p className="Dis-content">
+                          {selectedProduct.Brandinformation}
+                        </p>
                         <p>
                           <span>Rs.{selectedProduct.price}</span>
                           <del>MRP - Rs.{selectedProduct.mrp}</del>
                         </p>
                         <h3>
                           Category:{" "}
-                          <span style={{ color: "green" }}>{selectedProduct.category}</span>
+                          <span style={{ color: "green" }}>
+                            {selectedProduct.category}
+                          </span>
                         </h3>
                       </div>
                     </div>
@@ -145,9 +150,13 @@ const Card = () => {
                             BUY NOW
                           </button>
                         </div>
-                        <p className="Total-context">Total: ₨ {total.toFixed(2)}</p>
+                        <p className="Total-context">
+                          Total: ₨ {total.toFixed(2)}
+                        </p>
                         <hr />
-                        <p className="Dis-content">Additional product details or information can go here.</p>
+                        <p className="Dis-content">
+                          Additional product details or information can go here.
+                        </p>
                       </div>
                     </div>
                   </div>
